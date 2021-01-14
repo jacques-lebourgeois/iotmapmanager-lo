@@ -1,0 +1,23 @@
+{
+  "name": "iotmapmanager-lo",
+  "version": "1.0.3",
+  "description": "Compiled version of iotmapmanager",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc"
+  },
+  "files": [
+    "lib"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "iotmapmanager": "0.4.5"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
+}
